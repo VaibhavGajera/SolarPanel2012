@@ -255,12 +255,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  *{
-    overflow-x: hidden;
-  }
-  
-  
-  
+
   header {
     flex-direction: column;
     align-items: center;
