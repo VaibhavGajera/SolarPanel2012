@@ -253,3 +253,79 @@ footer {
   font-family: "Poppins", sans-serif;
   list-style: none;
 }
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .l-1,
+  .l-2,
+  .l-3,
+  .l-4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sp {
+    height: auto;
+  }
+
+  .sp-2 {
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 37vh;
+  }
+
+  .Type {
+    font-size: 25px;
+    display: none;
+  }
+
+  .type-1,
+  .type-2,
+  .type-3,
+  .type-4 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .Image-1,
+  .Image-3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .h-1,
+  .h-2 {
+    font-size: 30px;
+  }
+
+  .moreinfo {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 69%;
+    padding: 26px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+@media only screen and (min-width: 1025px) {
+  
+}
